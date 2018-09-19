@@ -1,0 +1,119 @@
+* {box-sizing: border-box;}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.Cname {
+    margin: auto;
+    width: 100%;
+    font-size: 7px;
+    padding: 10px;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #63b9c6;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #c0e0e5;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: darkgrey;
+  color: white;
+}
+
+.topnav input[type=text] {
+  float: right;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  border: none;
+  font-size: 17px;
+}
+
+body.body{
+    background-color: #e3e8ef;
+}
+.search{
+    background-color: #f9f9f9;
+    border-style: solid;
+    border-radius: 15px;
+}
+
+div.container{
+    margin-top: 20px;
+}
+
+div.body{
+    background-color: white;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.button {
+    background-color: #63b9c6; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+Button.save{
+    background-color: #f94343;
+}
+
+div.button1{
+    align-content:flex-end;
+    margin-left: 1000px;
+}
+
+div.main1{
+    align-content: center;
+}
+i.icondoc{
+    margin-left: 15px;
+    margin-right: 10px;
+}
+
+font.user{
+    font-size: 10; 
+}
+
+img.user{
+    margin-left: 10px;
+    width: 25px;
+    height: 20px;
+}
+
+p.file{
+    margin-left: 20px;
+}
+
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+} 
